@@ -10,6 +10,7 @@
       "**/html-minifier-terser"
     ]
   },
+  "version": "0.0.1",
   "scripts": {
     "build:clean": "lerna run build:clean --scope @docsearch/*",
     "build:esm": "lerna run build:esm --scope @docsearch/*",

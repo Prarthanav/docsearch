@@ -23,7 +23,7 @@ export const DocSearchButton = React.forwardRef<
   HTMLButtonElement,
   DocSearchButtonProps
 >(({ translations = {}, ...props }, ref) => {
-  const { buttonText = 'Search', buttonAriaLabel = 'Search' } = translations;
+  const { buttonText = 'Search Docs', buttonAriaLabel = 'Search Docs' } = translations;
 
   const [key, setKey] = useState<
     typeof ACTION_KEY_APPLE | typeof ACTION_KEY_DEFAULT | null
